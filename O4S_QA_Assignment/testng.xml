@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HeroesRestAPISuite">
+
+<listeners>
+	<listener class-name="com.heroes.utilities.Listeners" />
+</listeners>
+
+
+	<test thread-count="5" name="HeroesRestAPITest">
+		<classes>
+			<class name="com.heroes.testCases.TC_001_CheckGetAllHeroDetails" />
+			<class name="com.heroes.testCases.TC_002_CheckGetSingleHero" />
+			<class name="com.heroes.testCases.TC_003_CheckPostAHeroToFight" />
+			<class name="com.heroes.testCases.TC_004_CheckPostSecondHeroToFight" />
+			<class name="com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight" />
+            <class name="com.heroes.testCases.TC_006_CheckDeleteResetFight" />
+            <class name="com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes" />
+            <class name="com.heroes.testCases.TC_008_CheckFightWithAddingOneHero" />
+            <class name="com.heroes.testCases.TC_009_CheckAddingThreeHeroes" />
+            <class name="com.heroes.testCases.TC_010_CheckAddingSameHeroTwice" />
+            <class name="com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel" />
+            <class name="com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel" /> 
+            <class name="com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel" />
+            <class name="com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel" />
+            <class name="com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel" />
+            <class name="com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel" />
+            <class name="com.heroes.testCases.TC_017_CheckAddingFourHeroes" />
+            <class name="com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively" /> 
+            <class name="com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins" />
+            <class name="com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID" />
+            <class name="com.heroes.testCases.TC_021_CheckPostforInvaildNotinList" />
+            <class name="com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace" />
+            <class name="com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace" />
+            <class name="com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes" /> 
+            <class name="com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes" />
+            <class name="com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken" />
+            <class name="com.heroes.testCases.TC_027_CheckTokenAuthenticationValid" />
+            <class name="com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel" /> 
+           
+            <class name="com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber" />
+            <class name="com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber" />
+            
+        	</classes>
+	</test> 
+</suite> 

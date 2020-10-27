@@ -1,0 +1,949 @@
+<html>
+<head>
+<title>TestNG:  HeroesRestAPITest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>HeroesRestAPITest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>174/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 27 14:19:17 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>81 seconds (81230 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.heroes.testCases.TC_001_CheckGetAllHeroDetails.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_001_CheckGetAllHeroDetails</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3f49dace</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_002_CheckGetSingleHero.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_002_CheckGetSingleHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_002_CheckGetSingleHero@1e397ed7</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_003_CheckPostAHeroToFight.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_003_CheckPostAHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_003_CheckPostAHeroToFight@490ab905</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_004_CheckPostSecondHeroToFight.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_004_CheckPostSecondHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@56ac3a89</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@27c20538</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_006_CheckDeleteResetFight.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_006_CheckDeleteResetFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_006_CheckDeleteResetFight@72d818d1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@6e06451e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_008_CheckFightWithAddingOneHero.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_008_CheckFightWithAddingOneHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@59494225</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_009_CheckAddingThreeHeroes.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_009_CheckAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_009_CheckAddingThreeHeroes@6e1567f1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_010_CheckAddingSameHeroTwice.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_010_CheckAddingSameHeroTwice</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@5cb9f472</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@cb644e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@13805618</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@56ef9176</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@4566e5bd</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@1ed4004b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@ff5b51f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_017_CheckAddingFourHeroes.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_017_CheckAddingFourHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_017_CheckAddingFourHeroes@25bbe1b6</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@5702b3b1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@69ea3742</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@4b952a2d</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_021_CheckPostforInvaildNotinList.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_021_CheckPostforInvaildNotinList</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@3159c4b8</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@73846619</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@4bec1f0c</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@29ca901e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@5649fd9b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_027_CheckTokenAuthenticationValid.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_027_CheckTokenAuthenticationValid</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@2d928643</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@5025a98f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@49993335</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber.checkContentLength()'><b>checkContentLength</b><br>Test class: com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@20322d26</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_001_CheckGetAllHeroDetails.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_001_CheckGetAllHeroDetails</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3f49dace</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_002_CheckGetSingleHero.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_002_CheckGetSingleHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_002_CheckGetSingleHero@1e397ed7</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_003_CheckPostAHeroToFight.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_003_CheckPostAHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_003_CheckPostAHeroToFight@490ab905</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_004_CheckPostSecondHeroToFight.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_004_CheckPostSecondHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@56ac3a89</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@27c20538</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_006_CheckDeleteResetFight.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_006_CheckDeleteResetFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_006_CheckDeleteResetFight@72d818d1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@6e06451e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_008_CheckFightWithAddingOneHero.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_008_CheckFightWithAddingOneHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@59494225</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_009_CheckAddingThreeHeroes.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_009_CheckAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_009_CheckAddingThreeHeroes@6e1567f1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_010_CheckAddingSameHeroTwice.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_010_CheckAddingSameHeroTwice</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@5cb9f472</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@cb644e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@13805618</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@56ef9176</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@4566e5bd</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@1ed4004b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@ff5b51f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_017_CheckAddingFourHeroes.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_017_CheckAddingFourHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_017_CheckAddingFourHeroes@25bbe1b6</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@5702b3b1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@69ea3742</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_021_CheckPostforInvaildNotinList.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_021_CheckPostforInvaildNotinList</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@3159c4b8</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@73846619</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@4bec1f0c</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@29ca901e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_027_CheckTokenAuthenticationValid.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_027_CheckTokenAuthenticationValid</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@2d928643</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@5025a98f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber.checkContentType()'><b>checkContentType</b><br>Test class: com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@20322d26</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_001_CheckGetAllHeroDetails.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_001_CheckGetAllHeroDetails</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3f49dace</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_002_CheckGetSingleHero.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_002_CheckGetSingleHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_002_CheckGetSingleHero@1e397ed7</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_003_CheckPostAHeroToFight.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_003_CheckPostAHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_003_CheckPostAHeroToFight@490ab905</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_004_CheckPostSecondHeroToFight.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_004_CheckPostSecondHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@56ac3a89</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@27c20538</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_006_CheckDeleteResetFight.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_006_CheckDeleteResetFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_006_CheckDeleteResetFight@72d818d1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@6e06451e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_008_CheckFightWithAddingOneHero.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_008_CheckFightWithAddingOneHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@59494225</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_009_CheckAddingThreeHeroes.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_009_CheckAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_009_CheckAddingThreeHeroes@6e1567f1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_010_CheckAddingSameHeroTwice.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_010_CheckAddingSameHeroTwice</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@5cb9f472</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@cb644e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@13805618</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@56ef9176</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@4566e5bd</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@1ed4004b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@ff5b51f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_017_CheckAddingFourHeroes.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_017_CheckAddingFourHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_017_CheckAddingFourHeroes@25bbe1b6</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@5702b3b1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@69ea3742</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@4b952a2d</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_021_CheckPostforInvaildNotinList.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_021_CheckPostforInvaildNotinList</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@3159c4b8</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@73846619</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@4bec1f0c</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@29ca901e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@5649fd9b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_027_CheckTokenAuthenticationValid.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_027_CheckTokenAuthenticationValid</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@2d928643</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@5025a98f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@49993335</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@20322d26</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_001_CheckGetAllHeroDetails.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_001_CheckGetAllHeroDetails</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3f49dace</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_002_CheckGetSingleHero.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_002_CheckGetSingleHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_002_CheckGetSingleHero@1e397ed7</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_003_CheckPostAHeroToFight.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_003_CheckPostAHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_003_CheckPostAHeroToFight@490ab905</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_004_CheckPostSecondHeroToFight.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_004_CheckPostSecondHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@56ac3a89</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@27c20538</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_006_CheckDeleteResetFight.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_006_CheckDeleteResetFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_006_CheckDeleteResetFight@72d818d1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@6e06451e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_008_CheckFightWithAddingOneHero.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_008_CheckFightWithAddingOneHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@59494225</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_009_CheckAddingThreeHeroes.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_009_CheckAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_009_CheckAddingThreeHeroes@6e1567f1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_010_CheckAddingSameHeroTwice.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_010_CheckAddingSameHeroTwice</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@5cb9f472</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@cb644e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@13805618</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@56ef9176</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@4566e5bd</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@1ed4004b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@ff5b51f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_017_CheckAddingFourHeroes.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_017_CheckAddingFourHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_017_CheckAddingFourHeroes@25bbe1b6</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@5702b3b1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@69ea3742</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@4b952a2d</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_021_CheckPostforInvaildNotinList.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_021_CheckPostforInvaildNotinList</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@3159c4b8</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@73846619</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@4bec1f0c</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@29ca901e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@5649fd9b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@6adede5</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_027_CheckTokenAuthenticationValid.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_027_CheckTokenAuthenticationValid</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@2d928643</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@5025a98f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@49993335</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber.checkResposeBody()'><b>checkResposeBody</b><br>Test class: com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@20322d26</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_001_CheckGetAllHeroDetails.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_001_CheckGetAllHeroDetails</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3f49dace</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_002_CheckGetSingleHero.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_002_CheckGetSingleHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_002_CheckGetSingleHero@1e397ed7</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_003_CheckPostAHeroToFight.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_003_CheckPostAHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_003_CheckPostAHeroToFight@490ab905</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_004_CheckPostSecondHeroToFight.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_004_CheckPostSecondHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@56ac3a89</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@27c20538</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_006_CheckDeleteResetFight.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_006_CheckDeleteResetFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_006_CheckDeleteResetFight@72d818d1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@6e06451e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_008_CheckFightWithAddingOneHero.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_008_CheckFightWithAddingOneHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@59494225</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_009_CheckAddingThreeHeroes.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_009_CheckAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_009_CheckAddingThreeHeroes@6e1567f1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_010_CheckAddingSameHeroTwice.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_010_CheckAddingSameHeroTwice</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@5cb9f472</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@cb644e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@13805618</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@56ef9176</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@4566e5bd</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@1ed4004b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@ff5b51f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_017_CheckAddingFourHeroes.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_017_CheckAddingFourHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_017_CheckAddingFourHeroes@25bbe1b6</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@5702b3b1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@69ea3742</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@4b952a2d</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_021_CheckPostforInvaildNotinList.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_021_CheckPostforInvaildNotinList</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@3159c4b8</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@73846619</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@4bec1f0c</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@29ca901e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@5649fd9b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@6adede5</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_027_CheckTokenAuthenticationValid.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_027_CheckTokenAuthenticationValid</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@2d928643</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@5025a98f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@49993335</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@20322d26</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_001_CheckGetAllHeroDetails.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_001_CheckGetAllHeroDetails</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3f49dace</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_002_CheckGetSingleHero.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_002_CheckGetSingleHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_002_CheckGetSingleHero@1e397ed7</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_003_CheckPostAHeroToFight.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_003_CheckPostAHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_003_CheckPostAHeroToFight@490ab905</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_004_CheckPostSecondHeroToFight.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_004_CheckPostSecondHeroToFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@56ac3a89</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@27c20538</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_006_CheckDeleteResetFight.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_006_CheckDeleteResetFight</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_006_CheckDeleteResetFight@72d818d1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@6e06451e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_008_CheckFightWithAddingOneHero.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_008_CheckFightWithAddingOneHero</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@59494225</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_009_CheckAddingThreeHeroes.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_009_CheckAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_009_CheckAddingThreeHeroes@6e1567f1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_010_CheckAddingSameHeroTwice.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_010_CheckAddingSameHeroTwice</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@5cb9f472</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@cb644e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@13805618</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@56ef9176</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@4566e5bd</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@1ed4004b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@ff5b51f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_017_CheckAddingFourHeroes.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_017_CheckAddingFourHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_017_CheckAddingFourHeroes@25bbe1b6</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@5702b3b1</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@69ea3742</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@4b952a2d</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_021_CheckPostforInvaildNotinList.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_021_CheckPostforInvaildNotinList</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@3159c4b8</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@73846619</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@4bec1f0c</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@29ca901e</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@5649fd9b</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@6adede5</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_027_CheckTokenAuthenticationValid.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_027_CheckTokenAuthenticationValid</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@2d928643</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@5025a98f</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@49993335</td></tr>
+<tr>
+<td title='com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber</td>
+<td></td>
+<td>0</td>
+<td>com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@20322d26</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="174" passed="174">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HeroesRestAPISuite" duration-ms="80656" started-at="2020-10-27T05:46:52Z" finished-at="2020-10-27T05:48:13Z">
+    <groups>
+    </groups>
+    <test name="HeroesRestAPITest" duration-ms="80656" started-at="2020-10-27T05:46:52Z" finished-at="2020-10-27T05:48:13Z">
+      <class name="com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="setup" is-config="true" duration-ms="5" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Checkddinorder()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="Checkddinorder" is-config="true" duration-ms="2125" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkddinorder -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:24Z" finished-at="2020-10-27T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:24Z" finished-at="2020-10-27T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:24Z" finished-at="2020-10-27T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:24Z" finished-at="2020-10-27T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:24Z" finished-at="2020-10-27T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-27T05:47:24Z" finished-at="2020-10-27T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel@12843fce]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:24Z" finished-at="2020-10-27T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+      </class> <!-- com.heroes.testCases.TC_014_CheckAddingThreeHeroesInAscOrderPowerLevel -->
+      <class name="com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@39fb3ab6]" name="setup" is-config="true" duration-ms="4" started-at="2020-10-27T05:47:53Z" finished-at="2020-10-27T05:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckAuthenticationFail()[pri:0, instance:com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@39fb3ab6]" name="CheckAuthenticationFail" is-config="true" duration-ms="2043" started-at="2020-10-27T05:47:53Z" finished-at="2020-10-27T05:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAuthenticationFail -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@39fb3ab6]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:55Z" finished-at="2020-10-27T05:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@39fb3ab6]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:55Z" finished-at="2020-10-27T05:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@39fb3ab6]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:55Z" finished-at="2020-10-27T05:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken@39fb3ab6]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:55Z" finished-at="2020-10-27T05:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_026_CheckAuthenticationFailureWithInvalidToken -->
+      <class name="com.heroes.testCases.TC_001_CheckGetAllHeroDetails">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="setup" is-config="true" duration-ms="666" started-at="2020-10-27T05:46:53Z" finished-at="2020-10-27T05:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gethsingleHeroData()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="gethsingleHeroData" is-config="true" duration-ms="3634" started-at="2020-10-27T05:46:53Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gethsingleHeroData -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="checkContentLength" duration-ms="4" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="checkContentType" duration-ms="1" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_001_CheckGetAllHeroDetails@3551a94]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_001_CheckGetAllHeroDetails -->
+      <class name="com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@3c09711b]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getEmployeeData()[pri:0, instance:com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@3c09711b]" name="getEmployeeData" is-config="true" duration-ms="2017" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeData -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@3c09711b]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:48:06Z" finished-at="2020-10-27T05:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@3c09711b]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:48:06Z" finished-at="2020-10-27T05:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@3c09711b]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:48:06Z" finished-at="2020-10-27T05:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@3c09711b]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:48:06Z" finished-at="2020-10-27T05:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@3c09711b]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:48:06Z" finished-at="2020-10-27T05:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber@3c09711b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-27T05:48:06Z" finished-at="2020-10-27T05:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_032_CheckGetRequestwithValidIDaddedWithNumber -->
+      <class name="com.heroes.testCases.TC_006_CheckDeleteResetFight">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckDelete()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="CheckDelete" is-config="true" duration-ms="2025" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDelete -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_006_CheckDeleteResetFight@2096442d]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_006_CheckDeleteResetFight -->
+      <class name="com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="setup" is-config="true" duration-ms="3" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckFightWithoutHeroes()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="CheckFightWithoutHeroes" is-config="true" duration-ms="2070" started-at="2020-10-27T05:47:08Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFightWithoutHeroes -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="checkContentType" duration-ms="1" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="checkResponseTime" duration-ms="1" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes@9f70c54]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_007_CheckFightWithoutAddingHeroes -->
+      <class name="com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@61a485d2]" name="setup" is-config="true" duration-ms="4" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckMessageForThree()[pri:0, instance:com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@61a485d2]" name="CheckMessageForThree" is-config="true" duration-ms="2088" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMessageForThree -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@61a485d2]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:53Z" finished-at="2020-10-27T05:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@61a485d2]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:53Z" finished-at="2020-10-27T05:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@61a485d2]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:53Z" finished-at="2020-10-27T05:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@61a485d2]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:53Z" finished-at="2020-10-27T05:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@61a485d2]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:53Z" finished-at="2020-10-27T05:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes@61a485d2]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-27T05:47:53Z" finished-at="2020-10-27T05:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_025_CheckSuccessMessageAfterAddingThreeHeroes -->
+      <class name="com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckRandomAddition()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="CheckRandomAddition" is-config="true" duration-ms="2078" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRandomAddition -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="checkContentLength" duration-ms="1" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel@13c78c0b]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:22Z" finished-at="2020-10-27T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_013_CheckAddingTwoHeroesInRandomPowerLevel -->
+      <class name="com.heroes.testCases.TC_017_CheckAddingFourHeroes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckAddFourHero()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="CheckAddFourHero" is-config="true" duration-ms="2082" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAddFourHero -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_017_CheckAddingFourHeroes@26f67b76]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_017_CheckAddingFourHeroes -->
+      <class name="com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckFightAsc()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="CheckFightAsc" is-config="true" duration-ms="7089" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFightAsc -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel@7946e1f4]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:48:04Z" finished-at="2020-10-27T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_029_CheckFIghtBetweemThreeHeroesInASCPowerLevel -->
+      <class name="com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckPostFight()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="CheckPostFight" is-config="true" duration-ms="2041" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostFight -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="checkContentLength" duration-ms="1" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:05Z" finished-at="2020-10-27T05:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_005_CheckPostRequestMakeThemFight -->
+      <class name="com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="setup" is-config="true" duration-ms="7" started-at="2020-10-27T05:48:06Z" finished-at="2020-10-27T05:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckPostSecondHero()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="CheckPostSecondHero" is-config="true" duration-ms="7058" started-at="2020-10-27T05:48:06Z" finished-at="2020-10-27T05:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostSecondHero -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:48:13Z" finished-at="2020-10-27T05:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:48:13Z" finished-at="2020-10-27T05:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="checkResponseTime" duration-ms="1" started-at="2020-10-27T05:48:13Z" finished-at="2020-10-27T05:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:48:13Z" finished-at="2020-10-27T05:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:48:13Z" finished-at="2020-10-27T05:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:48:13Z" finished-at="2020-10-27T05:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber@5cc7c2a6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-27T05:48:13Z" finished-at="2020-10-27T05:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_033_CheckPostRequestWithValidIdaddedWithNumber -->
+      <class name="com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="setup" is-config="true" duration-ms="4" started-at="2020-10-27T05:47:24Z" finished-at="2020-10-27T05:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckAddinDesc()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="CheckAddinDesc" is-config="true" duration-ms="2115" started-at="2020-10-27T05:47:25Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAddinDesc -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel@3dd3bcd]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+      </class> <!-- com.heroes.testCases.TC_015_CheckAddingThreeHeroesInDescPowerLevel -->
+      <class name="com.heroes.testCases.TC_009_CheckAddingThreeHeroes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckAddThreeHeroes()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="CheckAddThreeHeroes" is-config="true" duration-ms="2086" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAddThreeHeroes -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_009_CheckAddingThreeHeroes@737996a0]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_009_CheckAddingThreeHeroes -->
+      <class name="com.heroes.testCases.TC_008_CheckFightWithAddingOneHero">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="setup" is-config="true" duration-ms="3" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CHeckFightOneHero()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="CHeckFightOneHero" is-config="true" duration-ms="2109" started-at="2020-10-27T05:47:10Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CHeckFightOneHero -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="checkContentType" duration-ms="1" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="checkstatusLine" duration-ms="1" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_008_CheckFightWithAddingOneHero@234bef66]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:12Z" finished-at="2020-10-27T05:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_008_CheckFightWithAddingOneHero -->
+      <class name="com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckGetWithSpace()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="CheckGetWithSpace" is-config="true" duration-ms="2138" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGetWithSpace -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="checkResponseTime" duration-ms="4" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="checkResposeBody" duration-ms="53" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="checkStatusCode" duration-ms="1" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace@7ca48474]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_022_CheckGetRequestWithExtraspace -->
+      <class name="com.heroes.testCases.TC_021_CheckPostforInvaildNotinList">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:42Z" finished-at="2020-10-27T05:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckInvalid()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="CheckInvalid" is-config="true" duration-ms="2051" started-at="2020-10-27T05:47:42Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInvalid -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_021_CheckPostforInvaildNotinList@13a57a3b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-27T05:47:44Z" finished-at="2020-10-27T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_021_CheckPostforInvaildNotinList -->
+      <class name="com.heroes.testCases.TC_004_CheckPostSecondHeroToFight">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckPostSecondHero()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="CheckPostSecondHero" is-config="true" duration-ms="2034" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostSecondHero -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="checkstatusLine" duration-ms="1" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_004_CheckPostSecondHeroToFight@735b478]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:03Z" finished-at="2020-10-27T05:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_004_CheckPostSecondHeroToFight -->
+      <class name="com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="setup" is-config="true" duration-ms="3" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckMessageforTwo()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="CheckMessageforTwo" is-config="true" duration-ms="2059" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMessageforTwo -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="checkStatusCode" duration-ms="1" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes@59e84876]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:51Z" finished-at="2020-10-27T05:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_024_CheckSuccessMessageAfterAddingTwoHeroes -->
+      <class name="com.heroes.testCases.TC_010_CheckAddingSameHeroTwice">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckAddSameHero()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="CheckAddSameHero" is-config="true" duration-ms="2115" started-at="2020-10-27T05:47:14Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAddSameHero -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="checkContentLength" duration-ms="1" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="checkResponseTime" duration-ms="1" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="checkStatusCode" duration-ms="1" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_010_CheckAddingSameHeroTwice@61dc03ce]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_010_CheckAddingSameHeroTwice -->
+      <class name="com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CHeckFIght()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="CHeckFIght" is-config="true" duration-ms="7075" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CHeckFIght -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins@7f560810]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_019_CheckFightbetweenTwoResultHigherpowerlevelWins -->
+      <class name="com.heroes.testCases.TC_003_CheckPostAHeroToFight">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="setup" is-config="true" duration-ms="11" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckPostHero()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="CheckPostHero" is-config="true" duration-ms="2128" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostHero -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_003_CheckPostAHeroToFight@52af6cff]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:01Z" finished-at="2020-10-27T05:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_003_CheckPostAHeroToFight -->
+      <class name="com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@69d9c55]" name="setup" is-config="true" duration-ms="3" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckIncorrectID()[pri:0, instance:com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@69d9c55]" name="CheckIncorrectID" is-config="true" duration-ms="2024" started-at="2020-10-27T05:47:40Z" finished-at="2020-10-27T05:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIncorrectID -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@69d9c55]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:42Z" finished-at="2020-10-27T05:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@69d9c55]" name="checkResponseTime" duration-ms="1" started-at="2020-10-27T05:47:42Z" finished-at="2020-10-27T05:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@69d9c55]" name="checkResposeBody" duration-ms="3" started-at="2020-10-27T05:47:42Z" finished-at="2020-10-27T05:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@69d9c55]" name="checkStatusCode" duration-ms="1" started-at="2020-10-27T05:47:42Z" finished-at="2020-10-27T05:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@69d9c55]" name="checkstatusLine" duration-ms="1" started-at="2020-10-27T05:47:42Z" finished-at="2020-10-27T05:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID@69d9c55]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:42Z" finished-at="2020-10-27T05:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_020_CheckGetMethodforIncorrectID -->
+      <class name="com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="setup" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckAddheroAlternative()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="CheckAddheroAlternative" is-config="true" duration-ms="2100" started-at="2020-10-27T05:47:31Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAddheroAlternative -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="checkStatusCode" duration-ms="1" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively@153f5a29]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-27T05:47:33Z" finished-at="2020-10-27T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_018_CheckAddingSameHeroAlternatively -->
+      <class name="com.heroes.testCases.TC_027_CheckTokenAuthenticationValid">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="setup" is-config="true" duration-ms="4" started-at="2020-10-27T05:47:55Z" finished-at="2020-10-27T05:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckValidAuthentication()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="CheckValidAuthentication" is-config="true" duration-ms="2091" started-at="2020-10-27T05:47:55Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidAuthentication -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_027_CheckTokenAuthenticationValid@6276ae34]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:57Z" finished-at="2020-10-27T05:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+      </class> <!-- com.heroes.testCases.TC_027_CheckTokenAuthenticationValid -->
+      <class name="com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="setup" is-config="true" duration-ms="3" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckPowerLevel()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="CheckPowerLevel" is-config="true" duration-ms="2144" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPowerLevel -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="checkContentType" duration-ms="1" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-27T05:47:20Z" finished-at="2020-10-27T05:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_012_CheckAddingTwoHeroInDescPowerLevel -->
+      <class name="com.heroes.testCases.TC_002_CheckGetSingleHero">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="setup" is-config="true" duration-ms="3" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GetHeroDetails()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="GetHeroDetails" is-config="true" duration-ms="2060" started-at="2020-10-27T05:46:57Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetHeroDetails -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="checkContentLength" duration-ms="0" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_002_CheckGetSingleHero@531be3c5]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:46:59Z" finished-at="2020-10-27T05:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_002_CheckGetSingleHero -->
+      <class name="com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="setup" is-config="true" duration-ms="3" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckTwoHero()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="CheckTwoHero" is-config="true" duration-ms="2095" started-at="2020-10-27T05:47:16Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTwoHero -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="checkContentLength" duration-ms="4" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="checkResposeBody" duration-ms="0" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel@50f8360d]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:18Z" finished-at="2020-10-27T05:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+      </class> <!-- com.heroes.testCases.TC_011_CheckAddingTwoHeroInASCPowerLevel -->
+      <class name="com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="setup" is-config="true" duration-ms="8" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckAddRandom()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="CheckAddRandom" is-config="true" duration-ms="2079" started-at="2020-10-27T05:47:27Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAddRandom -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="checkContentLength" duration-ms="1" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="checkResponseTime" duration-ms="1" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel@97e1986]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:29Z" finished-at="2020-10-27T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_016_CheckAddingThreeHeroesInRandomPowerLevel -->
+      <class name="com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="setup" is-config="true" duration-ms="2" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckPostWithSpace()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="CheckPostWithSpace" is-config="true" duration-ms="2159" started-at="2020-10-27T05:47:46Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostWithSpace -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="checkContentLength" duration-ms="1" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="checkContentType" duration-ms="0" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="checkResponseTime" duration-ms="0" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="checkResposeBody" duration-ms="1" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="checkStatusCode" duration-ms="0" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="checkstatusLine" duration-ms="0" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace@337d0578]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-27T05:47:49Z" finished-at="2020-10-27T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroes.testCases.TC_023_CheckPostRequestWithvalidWithSpace -->
+    </test> <!-- HeroesRestAPITest -->
+  </suite> <!-- HeroesRestAPISuite -->
+</testng-results>
